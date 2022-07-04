@@ -13,7 +13,7 @@
 }
 
 .calculator {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(254, 255, 194);
   width: 450px;
   height: 600px;
   border: 2px solid rgb(56, 56, 56);
@@ -79,6 +79,10 @@
   gap: 5px;
 }
 
+.margin-left-auto {
+  margin-left: auto;
+}
+
 .math-button {
   background-color: rgb(173, 170, 170);
   width: 100px;
@@ -121,12 +125,15 @@
 .pocket {
   padding-right: 20px;
   font-size: 34px;
+  height: 80px;
 }
 
 .pocket {
   font-size: 20px;
+  height: 50px;
 }
 
 .zero {
-  width: 205px;
+  width: 310px;
+  margin-left: auto;
 }
