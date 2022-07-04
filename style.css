@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mingzat", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: rgb(242, 242, 242);
+  width: 450px;
+  height: 600px;
+  border: 2px solid rgb(56, 56, 56);
+}
+
+.calculator,
+.math-button,
+.screen,
+.set-button {
+  border-radius: 14px;
+}
+
+.screen {
+  background-color: white;
+  width: 430px;
+  height: 160px;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid rgb(56, 56, 56);
+}
+
+.set-buttons {
+  /* background-color: azure; */
+  margin: 10px auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.set-button {
+  /* max-width: 100px; */
+  /* flex-grow: 1;s */
+  padding: 15px 30px;
+  color: white;
+  text-align: center;
+  border: 2px solid rgb(56, 56, 56);
+  font-size: 18px;
+}
+
+.set-button:first-child {
+  background-color: rgb(214, 92, 92);
+}
+
+.set-button:last-child {
+  background-color: rgb(84, 84, 180);
+}
+
+.math-buttons {
+  /* background-color: azure; */
+  margin: 20px auto;
+  /* width: 430px; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.math-button-row {
+  height: 70px;
+  display: flex;
+  gap: 5px;
+}
+
+.math-button {
+  background-color: rgb(173, 170, 170);
+  width: 100px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.set-button,
+.math-button {
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+.set-button:active,
+.math-button:active {
+  background-color: #8f8d8d;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.set-button:active {
+  background-color: rgb(179, 82, 82);
+}
+
+.set-button:last-child:active {
+  background-color: rgb(70, 70, 138);
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.writing,
+.pocket {
+  padding-right: 20px;
+  font-size: 34px;
+}
+
+.pocket {
+  font-size: 20px;
+}
+
+.zero {
+  width: 205px;
+}
